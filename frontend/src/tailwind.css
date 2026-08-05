@@ -1,0 +1,21 @@
+/* ============================================================
+   Tailwind CSS v4 entry point
+   Design tokens (colors, radii, shadows, blur) live in index.css
+   as CSS custom properties and are consumed directly by the
+   hand-written component classes (.btn, .glass-card, etc).
+   The @theme block below only exists so utility classes like
+   bg-nd-primary / from-nd-primary / text-nd-accent are available
+   for one-off Tailwind usage in TSX files.
+   ============================================================ */
+
+@import "tailwindcss";
+
+@theme {
+  --color-nd-primary: #FF6B9D;
+  --color-nd-secondary: #8B5CF6;
+  --color-nd-accent: #38BDF8;
+  --color-nd-deep: #4C1D95;
+  --color-nd-bg: #08090D;
+  --color-nd-text: #F5F5F7;
+  --color-nd-gray: #A1A1AA;
+}
